@@ -201,6 +201,7 @@ hr {
   background-color: #222;
   opacity: 0.2;
   pointer-events: none;
+  border: 2px solid #0d631c;
 }
 .letters-guess {
   margin: 10px auto;
@@ -255,7 +256,7 @@ hr {
   width: fit-content;
   color: #fff;
   font-size: 20px;
-  position: absolute;
+  position: fixed;
   left: 50%;
   transform: translateX(-50%);
   top: 30%;
